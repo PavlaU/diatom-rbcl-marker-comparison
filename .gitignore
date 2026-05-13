@@ -47,3 +47,18 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Raw sequencing data
+NGS_raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Generated analysis outputs
+DADA2_outputs/
+outputs/
+
+# External reference files downloaded separately
+input/2025-09-04-Diat.barcode_release-version 15.2.xlsx
+input/diat_barcode_v15_2_tax_assign_dada2.fa
